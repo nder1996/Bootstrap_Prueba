@@ -1,99 +1,274 @@
-/*
-
-rgb(247, 119, 80)
-rgb(250, 153, 131)
-rgb(250, 204, 194)
-rgb(247, 222, 219)
-rgb(249, 242, 242)
-
-*/
 
 .Marco_Principal{
     overflow: hidden;
 }
 
-.Marco_Secundario{
-    border:5px solid blue;
+
+
+.Marco_Secundario {
+    border: 5px solid blue;
 }
 
 
-.Nav_Descripcion_1{
+.Nav_Descripcion_1 {
+    font-size: 1rem !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color:rgb(169, 61, 93);
-    color:white !important;
+    background-color: rgb(169, 61, 93);
+    color: white !important;
+    margin-top: 0.01rem;
+    #height: 3rem !important;
 }
 
-.Nav_Descripcion_1 .col-12{
+.Nav_Descripcion_1 h5{
+    font-size: 1rem !important;
+}
+
+.Nav_Descripcion_1 .col-12 {
+    position: relative;
+    top: -0.5rem !important;
+    font-size: 1rem !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-.Nav_Descripcion_1 .col-12 i{
-    font-size: 2rem;
+.Nav_Descripcion_1 .col-12 i {
+    font-size: 1.2rem;
     margin-right: 2rem;
 }
 
-.Nav_Descripcion_2{
+.Nav_Descripcion_2 {
+    margin-top: 2.5rem;
     background-color: rgb(249, 242, 242) !important;
     padding: 1rem;
-    height: 4rem;
-    
+    height: 3rem;
+
 }
 
-.Nav_Descripcion_2 a,.Nav_Descripcion_2 i{
-    color:black !important;
+.Nav_Descripcion_2 a,
+.Nav_Descripcion_2 i {
+    color: black !important;
 }
 
-.Video_Portada{
+.Video_Portada {
     #border: 5px solid red;
     width: 100%;
 }
 
-.Video_Portada video{
+.Video_Portada video {
     width: 100%;
     height: 800px;
 }
 
-.form_input{
-    border:5px solid red;
+.form_input {
+    #border: 5px solid red;
 }
 
-.Info_Principal{
+.Info_Principal {
     margin-bottom: 3rem;
-    border: 5px solid red;
+    #border: 5px solid red;
     width: 93%;
 }
 
-.Info_Principal .card{
-    padding:25px;
-    border: 5px solid black;
+.Info_Principal .card {
+    padding: 25px;
+    #border: 5px solid black;
     #height: 20rem !important;
-    color:white !important;
+    color: white !important;
 }
 
 
-.Info_Principal .card img{
-    width:420px;
+.Info_Principal .card img {
+    width: 420px;
     height: 300px;
 }
 
-.Icon_Principal .row .col-12{
-    #border:5px solid red;
-    display:flex;
+.Icon_Principal .row .col-12 {
+    #border: 5px solid red;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-.Icon_Principal .row .col-12 div{
-    #border:5px solid red;
-    #display:flex;
-    margin-right:1rem;
+.Icon_Principal .row .col-12 div {
+    #border: 5px solid red;
+    #display: flex;
+    margin-right: 1rem;
     font-size: 1.3rem;
 }
 
-.Icon_Principal i{
-    font-size:4rem;
-    color: rgb(169, 61, 93);
+.Icon_Principal i {
+    font-size: 4rem;
+    color: rgb(92, 168, 60);
+}
+
+.Icon_Principal p{
+     color: black !important;
+     font-weight:  bolder;
+}
+
+
+.Paginas_img {
+    border: 5px solid red;
+    #width: 90%;
+}
+
+.Paginas_img .container-fluid {
+    #border: 5px solid blue;
+    width: 98%;
+}
+
+.Paginas_img .col-xxl-3 {
+    #border: 4px solid red;
+    #margin-left: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.Paginas_img .img-paginas {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+    height: 270px;
+}
+
+
+.Paginas_img #img_1 {
+    background-image: url('/img/auto.jpg');
+}
+
+.Paginas_img #img_2 {
+    background-image: url('/img/inmobiliario.jpg');
+}
+
+
+.Paginas_img #img_3 {
+    background-image: url('/img/doctor.jpg');
+}
+
+.Paginas_img #img_4 {
+    background-image: url('/img/perfume.jpg');
+}
+
+
+.Paginas_img #img_1:hover {
+    border: 5px solid red !important;
+    background-image: url('/img/auto_1.jpg');
+}
+
+.Paginas_img #img_2:hover {
+    background-image: url('/img/inmobiliario_1.jpg');
+}
+
+.Paginas_img #img_3:hover {
+    background-image: url('/img/doctor_1.jpg');
+}
+
+.Paginas_img #img_4:hover {
+        background-image: url('/img/perfume_1.jpg');
+}
+
+/*---------------PARRALLAX----------------*/
+
+
+/*-------EFECTO PARALLAX*/
+
+.Principal {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Efecto_Parallax {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-image: url('../img/parallax.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Efecto_Parallax div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(169, 61, 93);
+    background-color: transparent;
+    width: 80%;
+    height: 400px;
+    color: white;
+}
+
+.Efecto_Parallax div h1 {
+
+     background-color: rgb(0, 0, 0, 0.5);
+}
+
+.Efecto_Parallax div h2 {
+
+     background-color: rgb(0, 0, 0, 0.5);
+}
+
+.Efecto_Parallax div p {
+
+     background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+/*-------EFECTO PARALLAX*/
+
+
+/*---------------PARRALLAX----------------*/
+
+
+.Tarjetas_Anuncio{
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tarjetas_Anuncio .col-12{
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5rem;
+    #padding: 1rem;
+    color: white !important;
+}
+
+footer .footer_1{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 3rem !important;
+    font-size: 1.2rem !important;
+    #border: 5px solid red !important;
+    width: 110% !important;
+    color: black !important;
+}
+
+
+footer .footer_1 i{
+    margin-left: 1.8rem !important;
+}
+
+
+footer .row_2_footer{
+    margin: auto;
+    width: 95% !important;
+    #border: 4px solid black;
 }
