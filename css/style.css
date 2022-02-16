@@ -14,11 +14,21 @@ body{
 
 
 nav{
+      background-color: rgb(249, 242, 242) !important;
+    height: auto !important;
+    #border: 5px solid blue !important;
+    #height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 nav .navbar_1{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    position: relative;
+    height: 70px !important;
+    top: -0.6rem !important;
     background-color: rgb(169, 61, 93);
     color: white !important;
     padding: 15px !important;
@@ -27,23 +37,29 @@ nav .navbar_1{
 }
 
 nav .navbar_1 h1{
-    margin: auto !important;
+    #margin: auto !important;
     #border: 4px solid red !important;
 }
 
 
 nav .navbar_2{
-    padding: 5px !important;
+    position: relative;
+   # top: -1rem !important;
+    background-color: rgb(249, 242, 242) !important;
+    #padding: 5px !important;
     #border: 5px solid green !important;
 }
 
 /*NAV PRINCIPAL*/
 
 
+
 /*--------- VIDEO ----------------*/
 
 
 .Video_Portada{
+    #position: relative;
+    #top: -8rem !important;
     #margin: auto !important;
     width: 95% !important;
     #border: 5px solid purple !important;
@@ -51,6 +67,36 @@ nav .navbar_2{
 
 
 /*--------- VIDEO ----------------*/
+
+
+/*------------ TARJETA DE COLORES ---------------------*/
+
+.Info_Principal{
+    #border: 5px solid red !important;
+}
+
+.Info_Principal .card{
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+.Info_Principal .card p{
+    text-align: justify !important;
+}
+
+.Info_Principal img{
+    #border: 5px solid yellow !important;
+    width: 300px !important;
+    height: 300px !important;
+}
+
+/*------------ TARJETA DE COLORES ---------------------*/
+
+
+
+
+
+
 
 /**--------------------*/
 
@@ -209,6 +255,34 @@ nav .navbar_2{
 
 
 /*-------EFECTO PARALLAX*/
+
+
+/*-------TARJETA DE ANUNCIOS----------*/
+
+
+.Anuncio_Important{
+    #border: 5px solid red !important;
+}
+
+
+.Tarjetas_Anuncio{
+    #border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Tarjetas_Anuncio .card{
+    height: 100% !important;
+    margin: auto !important;
+    margin-right: 1rem !important;
+    margin-bottom: 1rem !important;
+    box-shadow: 0 0 7px 1px silver;
+}
+
+
+/*-------TARJETA DE ANUNCIOS----------*/
 
 
 
