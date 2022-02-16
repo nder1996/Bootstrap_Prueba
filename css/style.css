@@ -1,110 +1,75 @@
 
+
+body{
+    #border: 5px solid red !important;
+}
+
+
 .Marco_Principal{
     overflow: hidden;
+    #border: 5px solid blue !important;
 }
 
+/*NAV PRINCIPAL*/
 
 
-.Marco_Secundario {
-    #border: 5px solid blue;
+nav{
+    display: flex;
+    flex-direction: column;
 }
 
-
-.Nav_Descripcion_1 {
-    font-size: 1rem !important;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+nav .navbar_1{
     background-color: rgb(169, 61, 93);
     color: white !important;
-    margin-top: 0.01rem;
-    #height: 3rem !important;
+    padding: 15px !important;
+    width: 100% !!important;
+    #border: 5px solid blue !important;
 }
 
-.Nav_Descripcion_1 h5{
-    font-size: 1rem !important;
-}
-
-.Nav_Descripcion_1 .col-12 {
-    position: relative;
-    top: -0.5rem !important;
-    font-size: 1rem !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    #padding-bottom: 1rem;
-}
-
-.Nav_Descripcion_1 .col-12 i {
-    font-size: 1.2rem;
-    margin-right: 2rem;
-}
-
-.Nav_Descripcion_2 {
-    margin-top: 2.5rem;
-    background-color: rgb(249, 242, 242) !important;
-    padding: 1rem;
-    height: 3rem;
-
-}
-
-.Nav_Descripcion_2 a,
-.Nav_Descripcion_2 i {
-    color: black !important;
-}
-
-.Video_Portada {
-    #border: 5px solid red;
-    width: 100%;
-}
-
-.Video_Portada video {
-    width: 100%;
-    height: 800px;
-}
-
-.form_input {
-    #border: 5px solid red;
-}
-
-.Info_Principal {
-    margin-bottom: 3rem;
-    #border: 5px solid red;
-    width: 93%;
-}
-
-.Info_Principal .card {
-    padding: 25px;
-    #border: 5px solid black;
-    #height: 20rem !important;
-    color: white !important;
+nav .navbar_1 h1{
+    margin: auto !important;
+    #border: 4px solid red !important;
 }
 
 
-.Info_Principal .card img {
-    width: 420px;
-    height: 300px;
+nav .navbar_2{
+    padding: 5px !important;
+    #border: 5px solid green !important;
 }
+
+/*NAV PRINCIPAL*/
+
+
+/*--------- VIDEO ----------------*/
+
+
+.Video_Portada{
+    #margin: auto !important;
+    width: 95% !important;
+    #border: 5px solid purple !important;
+}
+
+
+/*--------- VIDEO ----------------*/
+
+/**--------------------*/
+
+
+.Marco_Secundario{
+    #border: 5px solid red !important;
+    margin: auto !important;
+    width: 95% !important;
+}
+
+/**Iconos Principales*/
+
 
 .Icon_Principal .row .col-12 {
     #border: 5px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center !important;
     margin-bottom: 1rem;
 }
 
-.Icon_Principal .row .col-12 div {
-    margin: auto !important;
-    #border: 5px solid red;
-    width: 90% !important;
-    display: flex;
-        justify-content: center;
-    align-items: center;
-    margin-right: 1rem;
-    font-size: 1.3rem;
-}
 
 .Icon_Principal i {
     font-size: 3rem;
@@ -116,6 +81,14 @@
      color: black !important;
      font-weight:  bolder;
 }
+
+
+/**Iconos Principales*/
+
+
+
+/*------ IMG PUBLICIDAD -----------*/
+
 
 
 .Paginas_img {
@@ -177,7 +150,8 @@
         background-image: url('/img/perfume_1.jpg');
 }
 
-/*---------------PARRALLAX----------------*/
+
+/*------ IMG PUBLICIDAD -----------*/
 
 
 /*-------EFECTO PARALLAX*/
@@ -237,46 +211,55 @@
 /*-------EFECTO PARALLAX*/
 
 
-/*---------------PARRALLAX----------------*/
 
 
-.Tarjetas_Anuncio{
-    #border: 5px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Tarjetas_Anuncio .col-12{
-    margin: auto;
-}
+/*FOOTER PRINCIPAL*/
 
 footer{
-    text-align: center;
-    margin-top: 5rem;
-    #padding: 1rem;
     color: white !important;
 }
 
 footer .footer_1{
     display: flex;
-    justify-content: center !important;
-    align-items: center !important;
-    height: 3rem !important;
-    font-size: 1.2rem !important;
-    #border: 5px solid red !important;
-    width: 110% !important;
+    #justify-content: center;
+    #align-items: center;
+    #padding: 10px;
     color: black !important;
 }
 
-
-footer .footer_1 i{
-    margin-left: 1.8rem !important;
+footer .footer_1 div{
+    #border: 5px solid red !important;
+    text-align: center !important;
 }
 
+footer .footer_1 i{
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+
+footer .footer_1 h5{
+    text-align: end !important;
+    width: 50%;
+    #border:5px solid red;
+}
 
 footer .row_2_footer{
     margin: auto;
     width: 95% !important;
     #border: 4px solid black;
 }
+
+footer .div_icon p{
+    text-align:end !important;
+    width: 79% !important;
+    #border:5px solid red;
+}
+
+/*FOOTER PRINCIPAL*/
+
+
+
+
+
+
+

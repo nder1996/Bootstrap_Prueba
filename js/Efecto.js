@@ -1,5 +1,5 @@
 
-var contador = 0;
+var contador = 1;
 $(document).ready(function() {
 
 
@@ -8,7 +8,7 @@ $(document).ready(function() {
         contador = 1
         console.log('Contador : ',contador)
           $('#form_input').hide();
-      }else{
+      }else if(contador==1){
         contador = 0 
          console.log('Contador : ',contador)
          $('#form_input').show();
