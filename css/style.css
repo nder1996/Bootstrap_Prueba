@@ -56,6 +56,12 @@ nav .navbar_2{
 
 /*--------- VIDEO ----------------*/
 
+.video{
+    border: 5px solid red !important;
+     /*margin: none !important;
+    padding: none !important;*/
+
+}
 
 .Video_Portada{
     #position: relative;
@@ -63,6 +69,7 @@ nav .navbar_2{
     #margin: auto !important;
     width: 95% !important;
     #border: 5px solid purple !important;
+       
 }
 
 
@@ -78,6 +85,7 @@ nav .navbar_2{
 .Info_Principal .card{
     text-align: center !important;
     padding: 10px !important;
+    color: white !important;
 }
 
 .Info_Principal .card p{
@@ -111,6 +119,7 @@ nav .navbar_2{
 
 
 .Icon_Principal .row .col-12 {
+
     #border: 5px solid red;
     text-align: center !important;
     margin-bottom: 1rem;
@@ -215,7 +224,7 @@ nav .navbar_2{
     display: flex;
     height: 600px;
     width: 100%;
-    background-image: url('../img/parallax.jpg');
+    background-image: url('/img/parallax.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -277,7 +286,7 @@ nav .navbar_2{
     height: 100% !important;
     margin: auto !important;
     margin-right: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 2rem !important;
     box-shadow: 0 0 7px 1px silver;
 }
 
