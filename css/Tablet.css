@@ -1,0 +1,96 @@
+@media (min-width: 577px) and (max-width: 992px) {
+
+
+    body {
+        #border: 5px solid black !important;
+    }
+
+    /*VIDEO PRESENTACION*/
+
+    .Video {
+        position: relative;
+        top: 8rem !important;
+        #border: 5px solid red !important;
+        #height: 10000px !important;
+    }
+
+    /*VIDEO PRESENTACION*/
+    .Marco_Secundario {
+       #border: 5px solid red !important;
+        position: relative;
+        margin-top: 10rem !important;
+        text-align: center !important;
+    }
+
+    /*--------- CUADRO DE COLORES ------------*/
+
+    .Info_Principal {
+        #border: 5px solid blue !important;
+    }
+
+    .Info_Principal .row {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .Info_Principal .card {
+        position: relative;
+        #left: 5rem !important;
+        #border: 5px solid yellow !important;
+        #margin: auto !important;
+    }
+
+        .Info_Principal .card img{
+        	width: 300px !important;
+        	#height: 250px !important;
+        }
+
+    .Info_Principal .card h5 {
+        font-size: 2rem !important;
+    }
+
+    .Info_Principal .card p {
+        font-size: 1.2rem !important;
+    }
+
+    .Info_Principal .card button {
+        margin-top: 1rem !important;
+        width: 100% !important;
+        font-size: 1.15rem !important;
+    }
+
+    /*--------- CUADRO DE COLORES ------------*/
+
+
+    /*-------TARJETA DE ANUNCIOS----------*/
+
+
+.Anuncio_Important{
+    #border: 5px solid red !important;
+}
+
+
+.Tarjetas_Anuncio{
+    #border: 5px solid red;
+    display: flex;
+    justify-content: flex-start;
+   # align-items: center;
+
+}
+
+.Tarjetas_Anuncio .card{
+	#border: 5px solid red !important;
+ 	width: 100% !important;
+ 	margin-right: 5rem !important;
+ 	margin: auto !important;
+ 	margin-top: 2rem !important;
+}
+
+
+/*-------TARJETA DE ANUNCIOS----------*/
+
+
+
+
+}
