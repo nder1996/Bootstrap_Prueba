@@ -349,3 +349,190 @@ footer .div_icon p{
 
 
 
+/*--------- PAGINA PLANES ------------*/
+
+
+.Portada_Planes{
+    #border: 5px solid red;
+    width: 100% !important;
+    #height: 30vw !important;
+}
+
+
+.Portada_Planes img{
+    object-fit: contain;
+    width:100%;
+    #height:100px !important;
+}
+
+
+/*--------- PAGINA CONTACTANOS ------------*/
+
+
+.Efecto_Parallax_Contactanos{
+    display: flex;
+    height: 30vw !important;
+    width: 100%;
+    background-image: url('/img/cliente.jpg');
+    background-repeat: no-repeat;
+    #background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Efecto_Parallax_Contactanos h1{
+         background-color: rgb(0, 0, 0, 0.5);
+         color: white !important;
+}
+
+/**---------------------------------*/
+
+/*DIVISION DE PAGINA*/
+
+
+.Principal_Contactanos{
+    position: relative;
+    #top: 15rem !!important;
+    #border: 5px solid red !important;
+}
+
+
+
+
+/*DIVISION DE PAGINA*/
+
+.Principal_Contactanos{
+    #border: 5px solid red !important;
+    width: 85% !important;
+}
+
+.Principal_Contactanos .col{
+    #border: 5px solid black !important;
+} 
+
+
+.Principal_Contactanos .ico{
+    #border: 5px solid red;
+    margin-bottom: 1rem !important;
+}
+
+.Principal_Contactanos .ico p{
+    position: relative;
+    top: -0.5rem !important;
+}
+
+.Principal_Contactanos .ico .col-1,.Principal_Contactanos .ico .col-6{
+    #border: 5px solid black !important;
+}
+
+.Principal_Contactanos .ico i{
+    padding: none !important;
+    margin: none !important;
+    margin-left: 0.5rem !important;
+    font-size: 2rem !important;
+    text-align: center !important;
+    #margin: auto !important;
+      color: rgb(92, 168, 60);
+}
+
+
+.contactnos_form{
+    #border: 5px solid black !important;
+    padding: 10px !important;
+}
+
+.name_form{
+    #border: 5px solid red !important;
+}
+
+.name_form section{
+    margin-right: 2rem !important;
+}
+
+/***/
+
+/**-------------PORTADA PLANES--------------------*/
+
+.Portada_Planes{
+    #border: 5px solid blue !important;
+     width:100% !important;
+     overflow: hidden;
+      height: 500px !important;
+
+}
+
+.Portada_Planes img{
+    #border: 5px solid red !important;
+    width:100% !important;
+    height: 100% !important;
+ 
+}
+
+.Marco_Secundario_Planes{
+    #border: 5px solid black !important;
+    display: flex;
+    justify-content: center !important;
+}
+
+.Planes_Precios{
+    height: 100% !important;
+}
+
+.Planes_Precios .row{
+  #border: 5px solid black !important;
+    display: flex;
+    justify-content: space-evenly !important;
+      #border: 5px solid red !important;
+}
+
+.Marco_Secundario_Planes .col-xxl-3{
+    text-align: justify !important;
+    background-color: rgb(249, 242, 242) !important;
+    #border: 5px solid red !important;
+    #height: 500px !important;
+    #margin-right: 2rem !important;
+    padding: 0 !important;
+    padding-bottom: 1.5rem !important;
+    #margin-bottom: 4rem !important;
+    #border: 5px solid red !important;
+    margin-bottom: 2.5rem !important;
+}
+
+.Marco_Secundario_Planes ul li{
+    width: 90% !important;
+    list-style: none !important;
+    margin-bottom: 2rem !important;
+}
+
+.Marco_Secundario_Planes ul li i{
+    margin-right: 1rem !important;
+}
+
+
+.Marco_Secundario_Planes h5{
+    text-align: center !important;
+    color: white !important;
+    background-color:  rgb(92, 168, 60);
+    width: 100% !important;
+    padding: 1rem !important;
+    font-weight: bold;
+
+}
+
+.Marco_Secundario_Planes button{
+    margin: auto !important;
+    width: 80% !important;
+    background-color:  rgb(92, 168, 60);
+    color: white !important;
+    margin-bottom: 1rem !important;
+}
+
+.Marco_Secundario_Planes p{
+    margin-top: 1rem !important;
+     font-weight: bold;
+    margin-bottom: 3rem !important;
+    text-align: center !important;
+}
