@@ -402,18 +402,50 @@ footer .div_icon p{
 
 
 
-/*DIVISION DE PAGINA*/
+/*-------- DIVISION DE PAGINA -------------------------------------*/
+
+
+
+/*---------- CONTACTANOS ------------------*/
+
 
 .Principal_Contactanos{
     #border: 5px solid red !important;
-    width: 85% !important;
 }
 
-.Principal_Contactanos .col{
-    #border: 5px solid black !important;
-} 
+.Principal_Contactanos .ico{
+    display: flex;
+    #border: 5px solid blue !important;
+}
+
+.Principal_Contactanos .ico p{
+    #border: 5px solid purple;
+    #width: 30% !important;
+}
 
 
+/*
+.Principal_Contactanos .ico{
+    #display: flex;
+    border: 5px solid blue !important;
+    margin-bottom: 1rem !important;
+}
+
+
+.Principal_Contactanos .ico p{
+    #border: 5px solid yellow !important;
+    width: 40% !important;
+}
+
+.Principal_Contactanos .ico i{
+        font-size: 1.3rem !important;
+      color: rgb(92, 168, 60);
+
+}
+
+
+/*
+/*
 .Principal_Contactanos .ico{
     #border: 5px solid red;
     margin-bottom: 1rem !important;
@@ -436,7 +468,8 @@ footer .div_icon p{
     text-align: center !important;
     #margin: auto !important;
       color: rgb(92, 168, 60);
-}
+      border: 5px solid red !important;
+}*/
 
 
 .contactnos_form{
@@ -451,6 +484,9 @@ footer .div_icon p{
 .name_form section{
     margin-right: 2rem !important;
 }
+
+/*---------- CONTACTANOS ------------------*/
+
 
 /***/
 
@@ -536,3 +572,5 @@ footer .div_icon p{
     margin-bottom: 3rem !important;
     text-align: center !important;
 }
+
+/**-------------PORTADA PLANES--------------------*/

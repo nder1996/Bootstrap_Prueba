@@ -134,7 +134,7 @@
         margin: auto;
         #border: 5px solid black !important;
         width: 80% !important;
-    }    
+    }
 
     footer .div_icon p {
         position: relative;
@@ -165,7 +165,7 @@
         #border: 5px solid black !important;
     }
 
-    footer .row_2_footer li{
+    footer .row_2_footer li {
         position: relative;
         right: 1rem !important;
         #border: 5px solid black !important;
@@ -174,18 +174,40 @@
     /*FOOTER PRINCIPAL*/
 
 
+
+
+
+    /*------------------PAGINA DE PLANES----------------------**/
+
+
+    .Marco_Secundario_Planes {
+        position: relative;
+        #top: -10rem;
+        #border: 5px solid blue;
+    }
+
+
+
+    /*------------------PAGINA DE PLANES----------------------**/
+
+    .Efecto_Parallax_Contactanos{
+        #border: 5px solid red !important;
+        height: 190px !important;
+    }
+
+
+    .Principal_Contactanos .ico p {
+        text-align: center !important;
+        #border: 5px solid blue !important;
+        text-align: center !important;
+          font-weight: bold;
+          width: 100% !important;
+    }
+
+    .Principal_Contactanos .ico i {
+        font-size: 1.8rem !important;
+        color: rgb(92, 168, 60);
+    }
+
+
 }
-
-
-/*------------------PAGINA DE PLANES----------------------**/
-
-
-.Marco_Secundario_Planes{
-    position: relative;
-    #top: -10rem;
-    #border: 5px solid blue ;
-}
-
-
-
-/*------------------PAGINA DE PLANES----------------------**/

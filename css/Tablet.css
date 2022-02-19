@@ -91,6 +91,24 @@
 /*-------TARJETA DE ANUNCIOS----------*/
 
 
+    .Efecto_Parallax_Contactanos{
+        #border: 5px solid red !important;
+        height: 190px !important;
+    }
+
+
+    .Principal_Contactanos .ico p {
+        text-align: center !important;
+        #border: 5px solid blue !important;
+        text-align: center !important;
+          font-weight: bold;
+          width: 100% !important;
+    }
+
+    .Principal_Contactanos .ico i {
+        font-size: 1.8rem !important;
+        color: rgb(92, 168, 60);
+    }
 
 
 }
