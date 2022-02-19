@@ -411,18 +411,30 @@ footer .div_icon p{
 
 .Principal_Contactanos{
     #border: 5px solid red !important;
+    width: 90% !important;
+    margin: auto !important;
 }
 
 .Principal_Contactanos .ico{
+    #margin-top: 5rem !important;
     display: flex;
     #border: 5px solid blue !important;
+    margin-bottom: 1rem !important;
 }
 
 .Principal_Contactanos .ico p{
     #border: 5px solid purple;
     #width: 30% !important;
 }
+.Principal_Contactanos .ico p{
+  #margin-top: 5rem !important;
+}
 
+.Principal_Contactanos .ico i{
+        font-size: 1.8rem !important;
+      color: rgb(92, 168, 60);
+
+}
 
 /*
 .Principal_Contactanos .ico{
